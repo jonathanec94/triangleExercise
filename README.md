@@ -1,5 +1,9 @@
 Solution for exercise : https://docs.google.com/document/d/1ZS6LSP4dVPHgjLFyJo1dMjcHWwbjUVtx1Nng5Hg26Tc/edit#
 
+ //1 == equilateral 
+ //2 == isosceles 
+  //3 == scalene
+
 | Input                 | forventet Output           |
 | -------------         |:-------------:   |
 |   5, 2, 3            | Scalene triangle  |
