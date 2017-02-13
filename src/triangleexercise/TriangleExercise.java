@@ -19,13 +19,15 @@ public class TriangleExercise {
         //2 == isosceles // ligebennet 
         //3 == scalene // alle er forskellige
         Controller c = new Controller();
-        System.out.println(c.calcTriangle(0, 0, 0));
-        System.out.println(c.calcTriangle(1, 1, 0)); 
-        System.out.println(c.calcTriangle(3, 4, 5));
-        System.out.println(c.calcTriangle(2, 2, 4)); 
-        System.out.println(c.calcTriangle(4, 4, 2)); 
-        System.out.println(c.calcTriangle(3, 3, 3)); 
-        
+        System.out.println(c.findShapeOfTriangle(0, 0, 0));
+        System.out.println(c.findShapeOfTriangle(-2, -2, -2));
+
+        System.out.println(c.findShapeOfTriangle(1, 1, 0)); 
+        System.out.println(c.findShapeOfTriangle(3, 4, 5));
+        System.out.println(c.findShapeOfTriangle(2, 2, 4)); 
+        System.out.println(c.findShapeOfTriangle(4, 4, 2)); 
+        System.out.println(c.findShapeOfTriangle(3, 3, 3)); 
+        System.out.println(c.findShapeOfTriangle(2147483647, 2147483647, 2147483646)); 
         
 
     }

@@ -1,0 +1,3 @@
+- Det er en god ide at overholde et bestemt navngivingstype alle steder i programmet, feks. camelcase.
+- Sigende navne for alt man navngiver.
+- Engelske navne
