@@ -14,5 +14,6 @@ Solution for exercise : https://docs.google.com/document/d/1ZS6LSP4dVPHgjLFyJo1d
 |   2, 2, -1            | Error            |
 |   2,2, 0             | Error            |
 |   2147483647,2147483647, 2147483647      | Error            |
+|   2,2, "test"             | Compile error            |
 
 Jonathan Egebak Carlsen
