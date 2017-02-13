@@ -1,0 +1,25 @@
+Feedback af https://github.com/Joachimdj/TestHomeWork1:
+
+Du har lavet et programmet, som kan tjekke de forskellige trekanter som kunden ønskede,
+Men i din funktion har du en code kompleksitet på 11, hvilket er meget højt i det er tilfælde.
+Jeg synes du laver lidt dobbeltarbejde, i form af at du først tjekker hvilken trekant det er hvor du efterfølgende
+har en switch case, hvor du skriver ud hvilken type trekant det er, her vil jeg i stedet for anbefale dig at returnerer i dine if statements, og på den måde "slipper" man også for at løbe hele koden igennem og din code kompleksitet bliver meget mindre af det.
+Vil anbefale dig at bruge if/else if statements, for at være sikker på at værdien ikke bliver overskrevet.
+Du kan droppe den første if, da din nummer 2 if, tjekker på det samme. 
+- Hvorfor returnere du hvis  "   if(a == 0 || b == 0 || c == 0) " 
+men det har du ikke gjort med de andre if statements
+
+  if(a == 0 || b == 0 || c == 0)
+    {
+        return "Invalid";
+    }
+    if(a + b > c || a + c > b || c + b > a){}
+
+
+I din switch case har du lavet  case 1, 2,3 og en default, 
+men du kunne droppe case 3 og lade den dem der gik i case 3 gå i default,
+da du alligevel udskriver samme besked.
+
+Du har også et import, som du ikke gør brug af, jeg vil anbefale dig at slette denne.
+import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int;
+
